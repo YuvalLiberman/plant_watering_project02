@@ -1,0 +1,36 @@
+
+
+body {
+    text-align: center;
+}
+
+.buttons {
+    font-size: 50px;
+    background-color: burlywood;
+}
+
+.plant01 {
+    float: left;
+}
+
+.water-bar {
+    width: 65px;
+    height: 200px;
+    background-color: #ccc;
+    position: relative;
+    margin: 0 auto;
+    border:2px solid burlywood;
+    border-radius: 5%;
+    overflow: hidden;
+  }
+  
+  .water-level {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: blueviolet;
+    transition: height 1s;
+  }
+  
+
+  
