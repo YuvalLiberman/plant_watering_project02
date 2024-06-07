@@ -17,5 +17,3 @@ function updateWaterLevel(level) {
     document.getElementById('waterLevel').style.height = level + '%'
   }  
 
-
-  //testtttttttttt
